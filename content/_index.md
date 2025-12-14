@@ -1,8 +1,8 @@
 ---
 toc: false
-breadcrumb: false
-sidebar:
+sidebar: 
   exclude: true
+breadcrumb: false
 ---
 <div class="hx:w-full hx:max-w-screen-xl hx:mx-auto hx:break-words hx:pb-8 hx:pt-8 hx:md:pt-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-left),1.5rem)]">
 <div class="hx:flex hx:flex-col hx:items-start">
@@ -32,7 +32,7 @@ GitHub
 </a>
 </div>
 <div class="hx:mt-6"></div>
-<div class="hextra-feature-grid hx:grid hx:grid-cols-1 hx:md:grid-cols-2 hx:lg:grid-cols-3 hx:gap-4 hx:w-full not-prose" style="--hextra-feature-grid-cols:3">
+<div class="hextra-feature-grid hx:grid hx:grid-cols-1 hx:md:grid-cols-2 hx:gap-4 hx:w-full not-prose" style="--hextra-feature-grid-cols:2">
 <a href="docs/builder/" style="background:radial-gradient(ellipse at 50% 80%,rgba(194,97,254,.15),hsla(0,0%,100%,0))" class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px] hextra-feature-card not-prose hx:block hx:relative hx:overflow-hidden hx:rounded-3xl hx:border hx:border-gray-200 hx:hover:border-gray-300 hx:dark:border-neutral-800 hx:dark:hover:border-neutral-700 hx:before:pointer-events-none hx:before:absolute hx:before:inset-0 hx:before:bg-glass-gradient">
 <div class="hx:relative hx:w-full hx:p-6">
 <h3 class="hx:text-2xl hx:font-medium hx:leading-6 hx:mb-2 hx:flex hx:items-center"><span>Type-Safe DSL</span></h3>
