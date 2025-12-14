@@ -1,20 +1,25 @@
 # Hugo configuration file
 title: Hyper Island ToolKit
+baseURL: "https://hyperisland.d4viddf.com" # CHANGE THIS to your actual URL
+languageCode: "en-us"
 
-# import hextra as module
+# Import Hextra
 module:
   imports:
     - path: github.com/imfing/hextra
 
+# Required for Search to work
+outputs:
+  home: [HTML, RSS, JSON]
+
 markup:
-  # allow raw html
   goldmark:
     renderer:
-      unsafe: true
-
-  # enable hextra syntax highlight
+      unsafe: true # Allows raw HTML (needed for some shortcodes)
   highlight:
     noClasses: false
+    style: "tango" # Optional: Choose a color scheme for code blocks
+    lineNos: true  # Optional: Adds line numbers to code blocks
 
 menu:
   main:
@@ -24,10 +29,12 @@ menu:
     - name: Contact ↗
       url: "https://d4viddf.com"
       weight: 3
+    # The Search Widget
     - name: Search
       weight: 4
       params:
         type: search
+    # Social Icons
     - name: GitHub
       weight: 5
       url: "https://github.com/D4vidDf/HyperIsland-ToolKit"
@@ -41,13 +48,42 @@ menu:
 
 params:
   description: "A powerful Kotlin library to easily implement Xiaomi HyperOS Dynamic Island notifications."
+  
+  # Main Navbar Settings
   navbar:
     displayTitle: true
     displayLogo: false
+    width: wide # Options: normal, wide, full
 
-  footer:
-    displayCopyright: false
-    displayPoweredBy: false
+  # Left Sidebar Settings
+  sidebar:
+    enable: true
+    collapsible: true # Allows folders to be opened/closed
+    open: true        # Keeps the current section open
+    filter: true      # Adds a search bar specifically for the sidebar menu
 
+  # Right Table of Contents (TOC)
+  toc:
+    enable: true
+    heading: "On this page"
+
+  # "Edit this page" link - Great for open source libraries!
   editURL:
     enable: false
+    base: "https://github.com/D4vidDf/HyperIsland-ToolKit/edit/main/content" # Adjust 'main' branch if needed
+
+  # Footer Settings
+  footer:
+    displayCopyright: true
+    copyright: "© 2025 D4vidDf" 
+    displayPoweredBy: true # It's nice to give Hextra credit, but optional
+    width: wide
+
+  # Blog/Article Dates
+  date:
+    format: "January 2, 2006"
+
+  # Theme Toggle (Sun/Moon icon)
+  theme:
+    default: system # system, dark, or light
+    displayToggle: true
