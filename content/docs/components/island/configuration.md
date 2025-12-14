@@ -48,7 +48,7 @@ builder.setParamIsland(
 | `maxSize` | `Boolean` | If `true`, forces the island to use the maximum available layout size. |
 | `needCloseAnimation`| `Boolean` | Whether to play the shrink/fade animation when closing. Default `true`. |
 | `expandedTime` | `Int?` | Specific duration (ms) to stay in the **Expanded** state before minimizing. |
-| `highlightColor` | `String?` | Hex color code for accenting specific UI elements within the island. |
+| `highlightColor` | `String?` | Hex color code for accenting specific UI elements within the island. This iclude the color border around the island |
 | `bigIslandArea` | `BigIslandArea?`| Defines the layout and content for the **Expanded** state. |
 | `smallIslandArea` | `SmallIslandArea?`| Defines the layout and content for the **Minimized** (capsule) state. |
 | `shareData` | `ShareData?` | Configuration for system sharing functionality. |
