@@ -12,8 +12,8 @@ You can mix and match components with different templates to create rich, intera
 | Component | Class | Description |
 | :--- | :--- | :--- |
 | [**Actions**](/docs/components/actions/) | `HyperAction` | Buttons for user interaction (Icons, Text, Progress). |
-| [**Hyper Picture**](/docs/components/hyper-picture/) | `HyperPicture` | Unified image container (Bitmap/Drawable) referenced by key. |
-| [**Anim Text Info**](/docs/components/anim-text-info/) | `AnimTextInfo` | Animated headers using Xiaomi system resources. |
+| [**Hyper Picture**](/docs/components/hyperpicture/) | `HyperPicture` | Unified image container (Bitmap/Drawable) referenced by key. |
+| [**Anim Text Info**](/docs/components/animated-info/) | `AnimTextInfo` | Animated headers using Xiaomi system resources. |
 | [**Base Info**](/docs/components/base-info/) | `BaseInfo` | Standard hierarchical text layout (Title, Content, Sub). |
 | [**Chat Info**](/docs/components/chat-info/) | `ChatInfo` | Standard layout perfect for messaging apps. |
 | [**Cover Info**](/docs/components/cover-info/) | `CoverInfo` | Large media cover art (Album/Book) with metadata text. |
