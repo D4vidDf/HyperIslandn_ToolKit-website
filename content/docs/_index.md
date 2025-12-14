@@ -32,6 +32,6 @@ graph LR
 ## Next Steps
 
 * [**Getting Started**](/docs/getting-started/): Install the library and show your first notification.
-* [**Templates**](/docs/templates/): Explore the 20+ supported layouts.
+* [**Templates**](/docs/templates/): Explore the 20+ exapmle layouts.
 * [**Components**](/docs/components/): Learn about custom buttons, progress bars, and island states.
 
