@@ -3,11 +3,19 @@ title: Getting Started
 weight: 1
 ---
 
-Learn how to integrate **HyperIsland ToolKit** into your project.
+Learn how to integrate the **HyperIsland ToolKit** into your Android project to create rich, dynamic notifications for Xiaomi HyperOS devices.
+
+## Requirements
+
+Before you begin, ensure your environment meets these criteria:
+
+* **Device:** Xiaomi, POCO, or Redmi device running **HyperOS** (or MIUI 14+ with Island support).
+* **Permission:** The app needs the **"Show in status bar"** permission enabled in system settings.
+* **Min SDK:** Android 7.0 (API 24) or higher.
 
 ## Installation
 
-Add the dependency to your `build.gradle.kts` (app module):
+Add the dependency to your module-level `build.gradle.kts` file:
 
 ```kotlin
 dependencies {
@@ -45,7 +53,28 @@ notification.extras.putString("miui.focus.param", builder.buildJsonParam())
 
 notify(notificationId, notification)
 ```
-## Requirements
+## Checking Support
 
-* **Device:** Xiaomi/Poco/Redmi device running HyperOS.
-* **Permission:** The user must grant "Status bar notification" permission.
+Since this library relies on specific system features present only in Xiaomi HyperOS (and some MIUI 14 versions), you should always verify device support before attempting to build a notification.
+
+The `isSupported()` method checks for:
+1.  **Manufacturer:** Is it a Xiaomi/Redmi/POCO device?
+2.  **System Feature:** Does `persist.sys.feature.island` exist?
+3.  **Permissions:** Has the user granted the necessary status bar permissions?
+
+```kotlin
+if (HyperIslandNotification.isSupported(context)) {
+    // Device is supported: Build and show HyperIsland notification
+    showHyperNotification()
+} else {
+    // Not supported: Fallback to standard Android notification
+    showStandardNotification()
+}
+
+## Next Steps
+
+Now that you have the basics running, explore the full capabilities of the toolkit:
+
+* **[Templates](/docs/components/):** Learn about the different layouts like `ChatInfo` (messaging), `CoverInfo` (media), and `HighlightInfo` (status).
+* **[Dynamic Island](/docs/components/island/configuration/):** Master the island behavior, including "Big Island" expansions, timers, and animations.
+* **[Actions](/docs/components/actions/):** Add interactive buttons, progress rings, and text capsules to your notification.

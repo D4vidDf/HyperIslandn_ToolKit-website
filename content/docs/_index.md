@@ -12,7 +12,7 @@ Implementing Dynamic Island notifications natively requires constructing complex
 ## Why use HyperIsland ToolKit?
 
 * **Type Safety:** No more manual JSON string concatenation. The library uses data classes to ensure your payloads are valid.
-* **Comprehensive Support:** Covers all known templates (Chat, Driver, Score, Upload, Timer, etc.).
+* **Comprehensive Support:** Covers all known templates (Chat, Media, Status, Timer, etc.).
 * **Smart Defaults:** Automatically handles prefixes like `miui.focus.pic_` and `miui.focus.action_`, so you don't have to.
 * **Modern API:** Designed with Kotlin best practices, using Builder patterns and scope functions for cleaner code.
 
@@ -28,10 +28,11 @@ graph LR
     D --> E[HyperOS System]
     E --> F[Dynamic Island UI]
 ```
+## Documentation Sections
 
-## Next Steps
-
-* [**Getting Started**](/docs/getting-started/): Install the library and show your first notification.
-* [**Templates**](/docs/templates/): Explore the 20+ exapmle layouts.
-* [**Components**](/docs/components/): Learn about custom buttons, progress bars, and island states.
-
+{{< cards >}}
+  {{< card link="/docs/getting-started/" title="Getting Started"  >}}
+  {{< card link="/docs/builder/" title="The Builder"  >}}
+  {{< card link="/docs/components/" title="Components" icon="puzzle" >}}
+  {{< card link="/docs/components/island/configuration/" title="Dynamic Island" icon="adjustments" >}}
+{{< /cards >}}
