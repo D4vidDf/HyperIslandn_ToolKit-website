@@ -74,9 +74,9 @@ params:
 
   # Footer Settings
   footer:
-    displayCopyright: true
+    displayCopyright: false
     copyright: "© 2025 D4vidDf" 
-    displayPoweredBy: true # It's nice to give Hextra credit, but optional
+    displayPoweredBy: false # It's nice to give Hextra credit, but optional
     width: wide
 
   # Blog/Article Dates
