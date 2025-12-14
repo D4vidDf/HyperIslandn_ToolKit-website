@@ -4,13 +4,8 @@ weight: 3
 
 # Notification Templates
 
-HyperIsland supports over 20 distinct templates used by the system.
+Xiaomi defines on their official documentation over 20 examples with common configuration.
 
-| Template | Class | Use Case |
-| :--- | :--- | :--- |
-| **Base Info** | `BaseInfo` | Standard notifications (Title + Text + Icon). |
-| **Chat Info** | `ChatInfo` | Messaging apps (Avatar + Message). |
-| **Highlight** | `HighlightInfo` | Timers, Recordings, Ongoing tasks. |
-| **Upload** | `ChatInfo` + `Progress` | File uploads or downloads. |
+# COMING SOON
 
-Select a template from the sidebar to see detailed implementation examples.
+Check HyperIsland Demo for the official examples
