@@ -70,6 +70,7 @@ if (HyperIslandNotification.isSupported(context)) {
     // Not supported: Fallback to standard Android notification
     showStandardNotification()
 }
+```
 
 ## Next Steps
 
