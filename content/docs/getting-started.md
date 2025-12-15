@@ -19,7 +19,7 @@ Add the dependency to your module-level `build.gradle.kts` file:
 
 ```kotlin
 dependencies {
-    implementation("io.github.d4viddf:hyperisland_kit:0.4.0")
+    implementation("io.github.d4viddf:hyperisland_kit:0.4.1")
 }
 ```
 
