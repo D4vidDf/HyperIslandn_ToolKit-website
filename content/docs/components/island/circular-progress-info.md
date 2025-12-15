@@ -22,4 +22,4 @@ val progressRing = CircularProgressInfo(
 | `progress` | `Int` | **Required.** The current progress value (0-100). |
 | `colorReach` | `String?` | Hex color string for the **filled** portion of the ring (the "reached" progress). |
 | `colorUnReach` | `String?` | Hex color string for the **unfilled** background track (the "unreached" part). |
-| `isCCW` | `Boolean` | Direction of the fill.<br>`false`: **Clockwise** (Default).<br>`true`: **Counter-Clockwise**. |
+| `isCCW` | `Boolean` | Direction of the fill.<br>`false`: **Counter-Clockwise** (Default).<br>`true`: **Clockwise**. |
