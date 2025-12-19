@@ -1,6 +1,6 @@
 ---
 title: Animated Info
-weight: 9
+weight: 5
 ---
 
 These components are designed to display an **Animated Icon** paired with text. They are commonly used for dynamic status indicators like "Charging", "Loading", or "Processing".

@@ -1,6 +1,6 @@
 ---
 title: Highlight Info
-weight: 3
+weight: 4
 ---
 
 `HighlightInfo` is designed for high-priority, ongoing tasks that need to stand out. It is ideal for **Timers**, **Stopwatches**, **Recordings**, or status updates that require emphasis.

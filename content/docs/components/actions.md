@@ -1,6 +1,6 @@
 ---
 title: Actions
-weight: 7
+weight: 10
 ---
 
 Actions are the interactive elements of your notification. HyperIsland supports versatile button types, ranging from simple icons to text capsules and download progress rings.

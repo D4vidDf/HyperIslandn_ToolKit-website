@@ -1,6 +1,5 @@
-# Hugo configuration file
-title: Hyper Island ToolKit
-baseURL: "https://hyperisland.d4viddf.com" # CHANGE THIS to your actual URL
+title: "HyperIsland ToolKit"
+baseURL: "https://hyperisland.d4viddf.com"
 languageCode: "en-us"
 
 # Import Hextra
@@ -15,75 +14,103 @@ outputs:
 markup:
   goldmark:
     renderer:
-      unsafe: true # Allows raw HTML (needed for some shortcodes)
+      unsafe: true
   highlight:
     noClasses: false
-    style: "tango" # Optional: Choose a color scheme for code blocks
-    lineNos: true  # Optional: Adds line numbers to code blocks
+    style: "tango"
+    lineNos: true
 
 menu:
   main:
     - name: Docs
       pageRef: /docs
       weight: 1
-    - name: Contact ↗
+
+    # --- Version Selector ---
+    - name: Latest Version
+      identifier: version
+      weight: 2
+      params:
+        icon: chevron-down
+    - name: "v0.4.3 (Latest)"
+      url: "/docs"
+      parent: version
+    - name: "v0.4.1"
+      url: "https://github.com/D4vidDf/HyperIsland-ToolKit/releases/tag/0.4.1"
+      parent: version
+      
+    - name: About
+      pageRef: /about
+      weight: 3
+
+    - name: Contact
       url: "https://d4viddf.com"
       weight: 3
+
+    # --- Support / Sponsor Button ---
+    - name: Support
+      weight: 4
+      url: "https://github.com/sponsors/D4vidDf"
+      params:
+        icon: heart
+        type: link
+
     # The Search Widget
     - name: Search
-      weight: 4
+      weight: 5
       params:
         type: search
+
     # Social Icons
     - name: GitHub
-      weight: 5
+      weight: 6
       url: "https://github.com/D4vidDf/HyperIsland-ToolKit"
       params:
         icon: github
     - name: Bluesky
-      weight: 6
+      weight: 7
       url: "https://bsky.app/profile/d4viddf.com"
       params:
         icon: bluesky
 
 params:
   description: "A powerful Kotlin library to easily implement Xiaomi HyperOS Dynamic Island notifications."
-  
+
   # Main Navbar Settings
   navbar:
     displayTitle: true
-    displayLogo: false
-    width: wide # Options: normal, wide, full
+    displayLogo: true
+    logo:
+      path: favicon.svg
+      dark: favicon.svg
+    width: wide
 
   # Left Sidebar Settings
+
   sidebar:
     enable: true
-    collapsible: true # Allows folders to be opened/closed
-    open: true        # Keeps the current section open
-    filter: true      # Adds a search bar specifically for the sidebar menu
+    collapsible: true
+    open: true
+    filter: true
 
   # Right Table of Contents (TOC)
   toc:
     enable: true
     heading: "On this page"
 
-  # "Edit this page" link - Great for open source libraries!
+  # "Edit this page" link
   editURL:
-    enable: false
-    base: "https://github.com/D4vidDf/HyperIsland-ToolKit/edit/main/content" # Adjust 'main' branch if needed
+    enable: true
+    base: "https://github.com/D4vidDf/HyperIsland-ToolKit/edit/main/website/content"
 
   # Footer Settings
   footer:
     displayCopyright: false
-    copyright: "© 2025 D4vidDf" 
-    displayPoweredBy: false # It's nice to give Hextra credit, but optional
-    width: wide
+    copyright: "© 2025 D4vidDf"
+    displayPoweredBy: false
+    width: small
 
-  # Blog/Article Dates
-  date:
-    format: "January 2, 2006"
-
-  # Theme Toggle (Sun/Moon icon)
+  # Theme Toggle
   theme:
-    default: system # system, dark, or light
+    default: system
     displayToggle: true

@@ -19,7 +19,7 @@ Add the dependency to your module-level `build.gradle.kts` file:
 
 ```kotlin
 dependencies {
-    implementation("io.github.d4viddf:hyperisland_kit:0.4.1")
+    implementation("io.github.d4viddf:hyperisland_kit:0.4.3")
 }
 ```
 
@@ -76,6 +76,6 @@ if (HyperIslandNotification.isSupported(context)) {
 
 Now that you have the basics running, explore the full capabilities of the toolkit:
 
-* **[Templates](/docs/components/):** Learn about the different layouts like `ChatInfo` (messaging), `CoverInfo` (media), and `HighlightInfo` (status).
+* **[Components](/docs/components/):** Learn about the different layouts like `ChatInfo` (messaging), `CoverInfo` (media), and `HighlightInfo` (status).
 * **[Dynamic Island](/docs/components/island/configuration/):** Master the island behavior, including "Big Island" expansions, timers, and animations.
 * **[Actions](/docs/components/actions/):** Add interactive buttons, progress rings, and text capsules to your notification.

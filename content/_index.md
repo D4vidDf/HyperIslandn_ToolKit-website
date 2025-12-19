@@ -3,12 +3,11 @@ toc: false
 sidebar: 
   exclude: true
 breadcrumb: false
+type: about
 ---
-<div class="hx:w-full hx:max-w-screen-xl hx:mx-auto hx:break-words hx:pb-8 hx:pt-8 hx:md:pt-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-left),1.5rem)]">
-<div class="hx:flex hx:flex-col hx:items-start">
-<a class="not-prose hx:inline-flex hx:items-center hx:rounded-full hx:gap-2 hx:px-3 hx:py-1 hx:text-xs hx:text-gray-600 hx:dark:text-gray-400 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:border-gray-200 hx:dark:border-neutral-800 hx:border hx:hover:border-gray-400 hx:dark:hover:text-gray-50 hx:dark:hover:border-gray-600 hx:transition-all hx:ease-in hx:duration-200" href="https://github.com/D4vidDf/HyperIsland-ToolKit/releases">
+<a class="not-prose hx:inline-flex hx:items-center hx:rounded-full hx:gap-2 hx:px-3 hx:py-1 hx:text-xs hx:text-gray-600 hx:dark:text-gray-400 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:border-gray-200 hx:dark:border-neutral-800 hx:border hx:hover:border-gray-400 hx:dark:hover:text-gray-50 hx:dark:hover:border-gray-600 hx:transition-all hx:ease-in hx:duration-200" href="https://central.sonatype.com/artifact/io.github.d4viddf/hyperisland_kit/0.4.3">
 <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
-<span>v0.4.1 Available</span>
+<span>v0.4.3 Available</span>
 <span class="hx:inline-block hx:align-text-bottom hextra-icon">
 <svg height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 9l3 3m0 0-3 3m3-3H8m13 0A9 9 0 113 12a9 9 0 0118 0z"></path></svg>
 </span>
@@ -83,6 +82,5 @@ Easily implement expanded "Big Island" states with countdowns, chronometers, and
 </p>
 </div>
 </a>
-</div>
 </div>
 </div>

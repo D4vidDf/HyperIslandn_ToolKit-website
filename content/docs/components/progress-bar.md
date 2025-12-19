@@ -1,6 +1,6 @@
 ---
 title: Linear Progress
-weight: 5
+weight: 6
 ---
 
 The Linear Progress Bar is used to visualize continuous status, such as **Downloads**, **Music Playback**, or **Delivery Tracking**. It uses the `ProgressInfo` data class.

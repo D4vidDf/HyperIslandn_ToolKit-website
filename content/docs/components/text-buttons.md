@@ -1,6 +1,6 @@
 ---
 title: Text Buttons
-weight: 50
+weight: 11
 ---
 
 # Text Buttons

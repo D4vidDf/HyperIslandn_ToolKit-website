@@ -1,6 +1,6 @@
 ---
 title: Cover Info
-weight: 10
+weight: 3
 ---
 
 `CoverInfo` is a rich media component designed to feature a large image (Cover Art) alongside hierarchical text. It supports three levels of text depth and is typically used for media notifications.

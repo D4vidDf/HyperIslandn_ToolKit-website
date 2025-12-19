@@ -1,6 +1,6 @@
 ---
 title: Helper Models
-weight: 11
+weight: 12
 ---
 
 These are specialized data classes used within specific templates or advanced configurations.
