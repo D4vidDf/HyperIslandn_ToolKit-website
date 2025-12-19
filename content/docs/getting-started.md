@@ -9,7 +9,7 @@ Learn how to integrate the **HyperIsland ToolKit** into your Android project to 
 
 Before you begin, ensure your environment meets these criteria:
 
-* **Device:** Xiaomi, POCO, or Redmi device running **HyperOS** (or MIUI 14+ with Island support).
+* **Device:** Xiaomi, POCO, or Redmi device running **HyperOS 3+**.
 * **Permission:** The app needs the **"Show in status bar"** permission enabled in system settings.
 * **Min SDK:** Android 7.0 (API 24) or higher.
 
